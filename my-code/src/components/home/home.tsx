@@ -4,7 +4,7 @@ import fetchApiData from "../../utils";
 import { resultIsError } from "../../utils";
 import ErrorMessage from "../errorMessage";
 
-import Card from "../card/card";
+import Card from "../card/card"
 import Spinner from "../spinner/spinner";
 
 import SearchIllustration from "../searchIllustration";

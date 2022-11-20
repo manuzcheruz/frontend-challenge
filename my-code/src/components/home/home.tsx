@@ -4,13 +4,13 @@ import fetchApiData from "../../utils";
 import { resultIsError } from "../../utils";
 import ErrorMessage from "../errorMessage";
 
-import Card from "../card/card";
+import Card from "../card/card"
 import Spinner from "../spinner/spinner";
 
 import SearchIllustration from "../searchIllustration";
 import SearchIcon from '../../assets/1.Icons/icon-magnifier-grey.svg';
 
-import './home.css';
+import './home.css'
 
 export default function Home() {
     const [searchVal, setSearchVal] = useState('');

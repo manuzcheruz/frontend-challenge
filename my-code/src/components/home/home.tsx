@@ -10,7 +10,7 @@ import Spinner from "../spinner/spinner";
 import SearchIllustration from "../searchIllustration";
 import SearchIcon from '../../assets/1.Icons/icon-magnifier-grey.svg';
 
-import './home.css';
+import './home.css'
 
 export default function Home() {
     const [searchVal, setSearchVal] = useState('');
